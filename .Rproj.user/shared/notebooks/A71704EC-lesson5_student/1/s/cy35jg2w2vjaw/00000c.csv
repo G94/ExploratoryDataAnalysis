@@ -1,0 +1,3 @@
+"0","set.seed(12)"
+"0","dtsSample<-sample(levels(yogurt_dts$id),16)"
+"0","ggplot(aes(x=time,y=price),data=subset(yogurt_dts, id %in% dtsSample)) + facet_wrap(~id) +geom_line() + geom_point(aes(size=all.purchases),pch=1)"

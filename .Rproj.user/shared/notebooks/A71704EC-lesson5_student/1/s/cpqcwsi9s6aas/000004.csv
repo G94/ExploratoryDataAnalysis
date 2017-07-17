@@ -1,0 +1,3 @@
+"0","ggplot(aes(x = 7 * round(tenure / 7), y = friendships_initiated / tenure),"
+"0","       data = subset(pf, tenure > 0)) +"
+"0","  geom_smooth(aes(color = year_joined.bucket))"

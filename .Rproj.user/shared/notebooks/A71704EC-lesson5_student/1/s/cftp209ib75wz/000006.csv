@@ -1,0 +1,1 @@
+"0","ggplot(aes(x=tenure,y=friendships_initiated/tenure),data=subset(pf,tenure >= 1))+geom_line(aes(color=year_joined.bucket),stat='summary',fun.y=mean)"

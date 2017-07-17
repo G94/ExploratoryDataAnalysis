@@ -1,0 +1,6 @@
+"0","library(ggplot2)"
+"0","library(gridExtra)"
+"0","histogram1<-ggplot(aes(x = gender, y = age),data = subset(pf, !is.na(gender))) + geom_histogram(stat = ""identity"")"
+"2","Ignoring unknown parameters: binwidth, bins, pad"
+"0","boxplot1<-ggplot(aes(x = gender, y = age),data = subset(pf, !is.na(gender))) + geom_boxplot()+stat_summary(fun.y=mean,geom = 'point',shape=4)"
+"0","grid.arrange(histogram1,boxplot1)"

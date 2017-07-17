@@ -1,0 +1,1 @@
+"0","ggplot(aes(x = age, y = friend_count),data = subset(pf, !is.na(gender))) + geom_line(aes(color=gender),stat=""summary"",fun.y=mean)"
